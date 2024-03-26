@@ -1,67 +1,67 @@
-// /**
-//  * 
-//  * Dificultad Baja
-//  * 
-//  */
+/**
+ * 
+ * Dificultad Baja
+ * 
+ */
 
 
 
 
-// var nombreCompleto = miNombre + " " + miApellido;
-// var textoPresentacion = "Mi nombre es " + nombreCompleto + ". Tengo " + miEdad + " años. Tengo una mascota llamada " + miMascota + " que tiene " + edadMascota + " años.";
+var nombreCompleto = miNombre + " " + miApellido;
+var textoPresentacion = "Mi nombre es " + nombreCompleto + ". Tengo " + miEdad + " años. Tengo una mascota llamada " + miMascota + " que tiene " + edadMascota + " años.";
 
-// /**
-//  * 
-//  * Dificultad Media
-//  * 
-//  */
+/**
+ * 
+ * Dificultad Media
+ * 
+ */
 
-// var sumaEdades = miEdad + edadMascota;
-// var restaEdades = miEdad - edadMascota;
-// var productoEdades = miEdad * edadMascota;
-// var divisionEdades = miEdad / edadMascota;
+var sumaEdades = miEdad + edadMascota;
+var restaEdades = miEdad - edadMascota;
+var productoEdades = miEdad * edadMascota;
+var divisionEdades = miEdad / edadMascota;
 
-// console.log("Suma de edades:", sumaEdades);
-// console.log("Resta de edades:", restaEdades);
-// console.log("Producto de edades:", productoEdades);
-// console.log("División de edades:", divisionEdades);
+console.log("Suma de edades:", sumaEdades);
+console.log("Resta de edades:", restaEdades);
+console.log("Producto de edades:", productoEdades);
+console.log("División de edades:", divisionEdades);
 
-// var estudiante = {
-//   nombre: "Juan",
-//   edad: 25,
-//   grado: "A",
-//   colegio: "Universidad",
-//   carrera: "Ciencias de la Computación"
-// };
+var estudiante = {
+  nombre: "Juan",
+  edad: 25,
+  grado: "A",
+  colegio: "Universidad",
+  carrera: "Ciencias de la Computación"
+};
 
-// console.table(estudiante);
-// console.log("Nombre del estudiante:", estudiante.nombre);
-// console.log("Edad del estudiante:", estudiante.edad);
-// console.log("Grado del estudiante:", estudiante.grado);
-// console.log("Colegio del estudiante:", estudiante.colegio);
-// console.log("Carrera del estudiante:", estudiante.carrera);
+console.table(estudiante);
+console.log("Nombre del estudiante:", estudiante.nombre);
+console.log("Edad del estudiante:", estudiante.edad);
+console.log("Grado del estudiante:", estudiante.grado);
+console.log("Colegio del estudiante:", estudiante.colegio);
+console.log("Carrera del estudiante:", estudiante.carrera);
 
-// var mascota = {
-//   nombre: "Fido",
-//   especie: "Perro",
-//   edad: 3,
-//   color: "Marrón",
-//   comidaFavorita: "Huesos"
-// };
+var mascota = {
+  nombre: "Fido",
+  especie: "Perro",
+  edad: 3,
+  color: "Marrón",
+  comidaFavorita: "Huesos"
+};
 
-// console.table(mascota);
-// console.log("Nombre de la mascota:", mascota.nombre);
-// console.log("Especie de la mascota:", mascota.especie);
-// console.log("Edad de la mascota:", mascota.edad);
-// console.log("Color de la mascota:", mascota.color);
-// console.log("Comida favorita de la mascota:", mascota.comidaFavorita);
+console.table(mascota);
+console.log("Nombre de la mascota:", mascota.nombre);
+console.log("Especie de la mascota:", mascota.especie);
+console.log("Edad de la mascota:", mascota.edad);
+console.log("Color de la mascota:", mascota.color);
+console.log("Comida favorita de la mascota:", mascota.comidaFavorita);
 
-// var frutas = ["Manzana", "Plátano", "Naranja", "Uvas", "Fresa"];
+var frutas = ["Manzana", "Plátano", "Naranja", "Uvas", "Fresa"];
 
-// console.log("Array de frutas:", frutas);
-// frutas.forEach(function(fruta, indice) {
-//   console.log("Fruta", indice + 1 + ":", fruta);
-// });
+console.log("Array de frutas:", frutas);
+frutas.forEach(function(fruta, indice) {
+  console.log("Fruta", indice + 1 + ":", fruta);
+});
 
 
 /**
