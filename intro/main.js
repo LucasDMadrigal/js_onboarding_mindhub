@@ -1,111 +1,87 @@
-console.log("Iniciando JavaScript...");
-/**
- * 
- * Nivel de dificultad: Bajo
- * 
- */
+// Dificultad Baja
+var miNombre = "Juan"; // Cambia "Juan" por tu primer nombre
+console.log(miNombre); // Imprimir el nombre en la consola
 
-console.log("Nombre:", miNombre);
-console.log("Apellido:", miApellido);
-console.log("Edad:", miEdad);
+var miApellido = "Pérez"; // Cambia "Pérez" por tu apellido
+var miEdad = 25; // Cambia 25 por tu edad (sin comillas)
+var miMascota = "Fido"; // Cambia "Fido" por el nombre de tu mascota o inventa uno si no tienes
+var edadMascota = 3; // Cambia 3 por la edad de tu mascota o inventa una si no tienes
 
 var nombreCompleto = miNombre + " " + miApellido;
-var textoPresentacion = "Hola, mi nombre es " + nombreCompleto + ". Tengo una mascota llamada " + miMascota + " que tiene " + edadMascota + " años.";
+var textoPresentacion = "Mi nombre es " + nombreCompleto + ". Tengo " + miEdad + " años. Tengo una mascota llamada " + miMascota + " que tiene " + edadMascota + " años.";
 
-console.log(textoPresentacion);
-
-
-/**
- * 
- * Nivel de dificultad: Medio
- * 
- */
-
+// Dificultad Media
 var sumaEdades = miEdad + edadMascota;
 var restaEdades = miEdad - edadMascota;
 var productoEdades = miEdad * edadMascota;
 var divisionEdades = miEdad / edadMascota;
 
 console.log("Suma de edades:", sumaEdades);
-console.log("Diferencia de edades:", restaEdades);
+console.log("Resta de edades:", restaEdades);
 console.log("Producto de edades:", productoEdades);
 console.log("División de edades:", divisionEdades);
 
 var estudiante = {
   nombre: "Juan",
   edad: 25,
-  carrera: "Ciencias de la Computación",
-  promedio: 3.8,
-  esGraduado: false
+  grado: "A",
+  colegio: "Universidad",
+  carrera: "Ciencias de la Computación"
 };
 
-console.log("Objeto Estudiante:");
 console.table(estudiante);
-
-for (var propiedad in estudiante) {
-  console.log(propiedad + ": " + estudiante[propiedad]);
-}
+console.log("Nombre del estudiante:", estudiante.nombre);
+console.log("Edad del estudiante:", estudiante.edad);
+console.log("Grado del estudiante:", estudiante.grado);
+console.log("Colegio del estudiante:", estudiante.colegio);
+console.log("Carrera del estudiante:", estudiante.carrera);
 
 var mascota = {
-  nombre: "Buddy",
+  nombre: "Fido",
   especie: "Perro",
-  edad: 5,
+  edad: 3,
   color: "Marrón",
-  esAmigable: true
+  comidaFavorita: "Huesos"
 };
 
-console.log("Objeto Mascota:");
 console.table(mascota);
-
-for (var propiedad in mascota) {
-  console.log(propiedad + ": " + mascota[propiedad]);
-}
+console.log("Nombre de la mascota:", mascota.nombre);
+console.log("Especie de la mascota:", mascota.especie);
+console.log("Edad de la mascota:", mascota.edad);
+console.log("Color de la mascota:", mascota.color);
+console.log("Comida favorita de la mascota:", mascota.comidaFavorita);
 
 var frutas = ["Manzana", "Plátano", "Naranja", "Uvas", "Fresa"];
 
-console.log("array de Frutas:");
-console.log(frutas);
-
+console.log("Array de frutas:", frutas);
 frutas.forEach(function(fruta, indice) {
-  console.log("Fruta " + (indice + 1) + ": " + fruta);
+  console.log("Fruta", indice + 1 + ":", fruta);
 });
 
-
-/**
- * 
- * Nivel de dificultad: Alto
- * 
- */
-
-var edadIngresada = prompt("Por favor ingresa tu edad:");
-
-var soyAdulto = edad >= 18;
-
+// Dificultad Alta
+var edadIngresada = prompt("Ingrese su edad:");
+var soyAdulto = parseInt(edadIngresada) >= 18;
 console.log("Soy adulto:", soyAdulto);
 
 var numeros = [1, 2, 3, 4, 5];
 
-console.log("array de Números:");
-console.log(numeros);
-
+console.log("Array de números:", numeros);
 numeros.forEach(function(numero, indice) {
-  console.log("Número " + (indice + 1) + ": " + numero);
+  console.log("Número", indice + 1 + ":", numero);
 });
 
 var familia = [
   { nombre: "Juan", edad: 30 },
+  { nombre: "Maria", edad: 28 },
+  { nombre: "Carlos", edad: 35 },
   { nombre: "Ana", edad: 25 },
-  { nombre: "Carlos", edad: 40 },
-  { nombre: "Elena", edad: 35 },
-  { nombre: "Daniel", edad: 45 }
+  { nombre: "Pedro", edad: 40 }
 ];
 
-console.log("array de Familia:");
-console.table(familia);
-
+console.log("Array de familia:", familia);
 familia.forEach(function(miembro, indice) {
-  console.log("Miembro de la Familia " + (indice + 1) + ": ", miembro);
+  console.log("Miembro de la familia", indice + 1 + ":", miembro);
 });
 
-var textoAleatorio = "Me gusta " + frutas[1] + " y mi número de la suerte es " + numeros[3] + ". " + familia[4].nombre + " es un miembro de mi familia.";
-console.log("Texto Aleatorio:", textoAleatorio);
+var textoAleatorio = frutas[1] + " " + numeros[3] + " " + familia[4].nombre + " tiene una mascota llamada " + mascota.nombre + ".";
+console.log("Texto aleatorio:", textoAleatorio);
