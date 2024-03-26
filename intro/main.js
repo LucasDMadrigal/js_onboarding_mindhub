@@ -1,64 +1,74 @@
-// Dificultad Baja
-var miNombre = "Juan"; // Cambia "Juan" por tu primer nombre
-console.log(miNombre); // Imprimir el nombre en la consola
+// /**
+//  * 
+//  * Dificultad Baja
+//  * 
+//  */
 
-var miApellido = "Pérez"; // Cambia "Pérez" por tu apellido
-var miEdad = 25; // Cambia 25 por tu edad (sin comillas)
-var miMascota = "Fido"; // Cambia "Fido" por el nombre de tu mascota o inventa uno si no tienes
-var edadMascota = 3; // Cambia 3 por la edad de tu mascota o inventa una si no tienes
 
-var nombreCompleto = miNombre + " " + miApellido;
-var textoPresentacion = "Mi nombre es " + nombreCompleto + ". Tengo " + miEdad + " años. Tengo una mascota llamada " + miMascota + " que tiene " + edadMascota + " años.";
 
-// Dificultad Media
-var sumaEdades = miEdad + edadMascota;
-var restaEdades = miEdad - edadMascota;
-var productoEdades = miEdad * edadMascota;
-var divisionEdades = miEdad / edadMascota;
 
-console.log("Suma de edades:", sumaEdades);
-console.log("Resta de edades:", restaEdades);
-console.log("Producto de edades:", productoEdades);
-console.log("División de edades:", divisionEdades);
+// var nombreCompleto = miNombre + " " + miApellido;
+// var textoPresentacion = "Mi nombre es " + nombreCompleto + ". Tengo " + miEdad + " años. Tengo una mascota llamada " + miMascota + " que tiene " + edadMascota + " años.";
 
-var estudiante = {
-  nombre: "Juan",
-  edad: 25,
-  grado: "A",
-  colegio: "Universidad",
-  carrera: "Ciencias de la Computación"
-};
+// /**
+//  * 
+//  * Dificultad Media
+//  * 
+//  */
 
-console.table(estudiante);
-console.log("Nombre del estudiante:", estudiante.nombre);
-console.log("Edad del estudiante:", estudiante.edad);
-console.log("Grado del estudiante:", estudiante.grado);
-console.log("Colegio del estudiante:", estudiante.colegio);
-console.log("Carrera del estudiante:", estudiante.carrera);
+// var sumaEdades = miEdad + edadMascota;
+// var restaEdades = miEdad - edadMascota;
+// var productoEdades = miEdad * edadMascota;
+// var divisionEdades = miEdad / edadMascota;
 
-var mascota = {
-  nombre: "Fido",
-  especie: "Perro",
-  edad: 3,
-  color: "Marrón",
-  comidaFavorita: "Huesos"
-};
+// console.log("Suma de edades:", sumaEdades);
+// console.log("Resta de edades:", restaEdades);
+// console.log("Producto de edades:", productoEdades);
+// console.log("División de edades:", divisionEdades);
 
-console.table(mascota);
-console.log("Nombre de la mascota:", mascota.nombre);
-console.log("Especie de la mascota:", mascota.especie);
-console.log("Edad de la mascota:", mascota.edad);
-console.log("Color de la mascota:", mascota.color);
-console.log("Comida favorita de la mascota:", mascota.comidaFavorita);
+// var estudiante = {
+//   nombre: "Juan",
+//   edad: 25,
+//   grado: "A",
+//   colegio: "Universidad",
+//   carrera: "Ciencias de la Computación"
+// };
 
-var frutas = ["Manzana", "Plátano", "Naranja", "Uvas", "Fresa"];
+// console.table(estudiante);
+// console.log("Nombre del estudiante:", estudiante.nombre);
+// console.log("Edad del estudiante:", estudiante.edad);
+// console.log("Grado del estudiante:", estudiante.grado);
+// console.log("Colegio del estudiante:", estudiante.colegio);
+// console.log("Carrera del estudiante:", estudiante.carrera);
 
-console.log("Array de frutas:", frutas);
-frutas.forEach(function(fruta, indice) {
-  console.log("Fruta", indice + 1 + ":", fruta);
-});
+// var mascota = {
+//   nombre: "Fido",
+//   especie: "Perro",
+//   edad: 3,
+//   color: "Marrón",
+//   comidaFavorita: "Huesos"
+// };
 
-// Dificultad Alta
+// console.table(mascota);
+// console.log("Nombre de la mascota:", mascota.nombre);
+// console.log("Especie de la mascota:", mascota.especie);
+// console.log("Edad de la mascota:", mascota.edad);
+// console.log("Color de la mascota:", mascota.color);
+// console.log("Comida favorita de la mascota:", mascota.comidaFavorita);
+
+// var frutas = ["Manzana", "Plátano", "Naranja", "Uvas", "Fresa"];
+
+// console.log("Array de frutas:", frutas);
+// frutas.forEach(function(fruta, indice) {
+//   console.log("Fruta", indice + 1 + ":", fruta);
+// });
+
+
+/**
+ * 
+ * Dificultad Alta
+ * 
+ */
 var edadIngresada = prompt("Ingrese su edad:");
 var soyAdulto = parseInt(edadIngresada) >= 18;
 console.log("Soy adulto:", soyAdulto);
